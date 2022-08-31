@@ -31,8 +31,25 @@ Take note of the various variables and their data types. Write a brief summary i
 * Its data type
 * and example values you can assign them.
 
+scriptTemplateLine1 - String - "character", "4", "%s"
+
+people - integer - 4, 5, 10
+
+ticketPrice - float - 2.7f, 19.42f, 99.9f
+
+itemPrice - double - 6.2, 3.7, 10.12
+
+trueOrFalse - boolean - true, false
+
+formatter - NumberFormat - NumberFormat.getCurrencyInstance()
+
+
 Next give TWO example variable names and TWO example variable assignments that are *WRONG* and explain why.
 * Hint: your IDE can help you discover these!
+
+int smallNumber = 0.01 - This is an incorrect variable assingment because integers cannot have fractional values.
+
+String notWords = 3 - This is an incorrect variable assignment because while you can have numbers in strings, you need to have double quotes around them to make it a string.
 
 ### Part 3 - Bonus: Play around with Java String Format Specifiers.
 
